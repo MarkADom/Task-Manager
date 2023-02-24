@@ -10,10 +10,10 @@ public record CreateTaskInput(String name, String description, TaskStatusEnum st
     public Task toTask() {
         Task task = new Task();
 
-        task.setName(name)
-                .setDescription(description)
-                .setStatus(status)
-                .setDueDate(dueDate);
+        task.setName(name);
+        task.setDescription(description);
+        task.setStatus(status);
+        task.setDueDate(dueDate);
 
         return task;
     }
