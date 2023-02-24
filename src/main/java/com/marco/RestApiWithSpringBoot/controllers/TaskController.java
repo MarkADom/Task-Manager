@@ -2,6 +2,7 @@ package com.marco.RestApiWithSpringBoot.controllers;
 
 import com.marco.RestApiWithSpringBoot.entities.Task;
 import com.marco.RestApiWithSpringBoot.requests.CreateTaskInput;
+import com.marco.RestApiWithSpringBoot.requests.UpdateTaskInput;
 import com.marco.RestApiWithSpringBoot.services.TaskService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
