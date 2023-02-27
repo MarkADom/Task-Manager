@@ -3,7 +3,7 @@ A simple build of a REST API with Spring Boot and MySQL.
 
 ## Description
 
-Backend of a task manager that will allow users to manage their things to do. 
+Backend of a task manager, that will allow users to manage their things to do. 
 
 ## Project Description
 
